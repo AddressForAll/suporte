@@ -22,9 +22,9 @@ Create a localhost:port for a SSH tunnel, as described by this answer:   https:/
 
 `ssh -L localhost:5432:localhost:5432 -o ServerAliveInterval=5 fulano@addressforall.org`
 
-![](_assets/usingTolls-QGIS-box1.jpeg)
+![](../_assets/usingTolls-QGIS-box1.jpeg)
 
-![](_assets/usingTolls-QGIS-box2.jpeg)
+![](../_assets/usingTolls-QGIS-box2.jpeg)
 
 ... No qgis, botão direito no postgis, nova conexão
 
