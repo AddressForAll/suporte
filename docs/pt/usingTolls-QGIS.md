@@ -2,7 +2,7 @@
 
 [QGIS](https://en.wikipedia.org/wiki/QGIS) é uma das ferramentas eleitas pelo Instituto AddressForAll para efetivar seus propósitos e instrumentalizar a sua equipe e comunidade.
 
-É um software livre com código-fonte aberto, multiplataforma de SIG ([sistema de informação geográfica](https://pt.wikipedia.org/wiki/Sistema_de_informa%C3%A7%C3%A3o_geogr%C3%A1fica)). Em particular:
+É um software livre de SIG ([sistema de informação geográfica](https://pt.wikipedia.org/wiki/Sistema_de_informa%C3%A7%C3%A3o_geogr%C3%A1fica)) que, em particular:
 
 * Roda nos sistemas **Ubuntu** e **Windows**;
 
