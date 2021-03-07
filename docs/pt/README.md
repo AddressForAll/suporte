@@ -11,7 +11,7 @@ RESUMO para quem está apenas navegando pelo git:
 
 ## Contexto e apresentação
 
-O [git.addressForAll.org/suporte](http://git.addressForAll.org/suporte) é um [repositório `git`] (https://en.wikipedia.org/wiki/Git)
+O [git.addressForAll.org/suporte](http://git.addressForAll.org/suporte) é um [repositório `git`](https://en.wikipedia.org/wiki/Git)
 com regras e *datasets* (incluindo dados sobre "tickets de suporte") para a **gestão e transparência da Equipe de Suporte Técnico** do Instituto AddressForAll.
 
 No repositório `git` as regras, *datasets* e *tickets* são registrados, portanto,
