@@ -1,9 +1,9 @@
-## Documentação do suporte
+## A4A Support Documentation
 
-Os arquivos *markdown* (`*.md`) desta pasta  estão em conformidade e são publicados pelo [mkdocs]().
+Documentation languages:
 
-RESUMO para quem está apenas navegando pelo git:
+* [`docs/en`](./en) English: future main (reference) language, with all contents.
+* [`docs/pt`](./pt) Portuguese: 2020's main language (after will be secondary).
+* [`docs/es`](./es) Espanhol: secondary language.
 
-* [Infraestrutura do AddressForAll](infra.md#infraestrutura-do-addressforal)
-* [Termo de Referência dos Serviços da Equipe de Suporte do AddressForAll](termo.md#termo-de-referência-dos-serviços-da-equipe-de-suporte-do-addressforal)
-* [Gestão dos Tickets](tickets.md#gestão-dos-tickets)
+
