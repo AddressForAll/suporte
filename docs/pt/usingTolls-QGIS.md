@@ -8,6 +8,17 @@
 
 A presente documentação tem como escopo apenas os elementos destacados em negrito.
 
+## Visualização de GeoJSON
+
+Apesar de, nos primórdios, ser orientado a pequenos mapas, o formato aberto GeoJSON pode guardar grandes mapas, de modo que [em geral será um arquivo `gzip`](https://gis.stackexchange.com/a/46972/7505). A recomendação de uso do `gzip` e não `zip` é que pode ser descompactado progressivamente, sem gasto de memória (por exmeplo `gzip -c file.geojson | process1 | process2`). Ele é preferível ao formato ShapeFile por ser autocontido e utilizar uma estrutura em árvore ao invés de múltiplos arquivos tabulares. Dicas:
+
+> If you have a geojson file on your local hard drive or network and want to view/use it in QGIS, you can just drag and drop it from the Browser Panel into the Layers Panel or just double click on the file will add it to the Layers Panel. 
+
+Para o caso de URL também é simples, e [este vídeo mostra cada passo](https://www.youtube.com/watch?v=sQEzgU-NvQ0).
+
+Para garantir a visualização sobre um fundo adequado (satélite ou mapa OSM), basta ... ?? 
+
+
 ## Conexão com server
 
 QGIS com servidor online da AddressForAll... requer conexão SSH por segurança... e a técnica de "tunel"...
