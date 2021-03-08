@@ -1,4 +1,4 @@
-# Usando o Quantum-GIS no A4A
+# Usando o QGIS no A4A
 
 [QGIS](https://en.wikipedia.org/wiki/QGIS) é uma das ferramentas eleitas pelo Instituto AddressForAll (A4A) para efetivar seus propósitos e instrumentalizar a sua equipe e comunidade.
 
