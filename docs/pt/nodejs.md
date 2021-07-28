@@ -70,3 +70,12 @@ Comandos uteis
   
   
 ```
+
+Colocar site no boot
+```
+  pm2 start site
+  pm2 save
+  pm2 startup
+  #copiar a linha gerada para /etc/rc.local 
+
+```
