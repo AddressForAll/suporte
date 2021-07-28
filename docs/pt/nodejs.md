@@ -58,4 +58,8 @@ Comandos uteis
   #apagar site
   pm2 delete site
   
+  #update site
+  pm2 update app.js
+  
+  
 ```
