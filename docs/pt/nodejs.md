@@ -17,8 +17,15 @@ Realiza a parte de serviço do sistema para inicializar o node.js e o site
 
 ```
 sudo npm install pm2 -g
-pm2 startup
 ```
+
+```
+sudo su - 
+su - pm2
+pm2 startup
+#copiar a linha gerada para /etc/rc.local 
+```
+
 
 
 Consultar o site acima para outros exemplos
