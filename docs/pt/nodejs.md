@@ -79,3 +79,9 @@ Colocar site no boot
   #copiar a linha gerada para /etc/rc.local 
 
 ```
+
+Colocar o site a4a no ar
+```
+yarn start
+pm2 start yarn --name api -- start
+```
