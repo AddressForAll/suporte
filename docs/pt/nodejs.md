@@ -1,6 +1,5 @@
 # Todo
-* Gerenciar logs
-  * https://pm2.keymetrics.io/docs/usage/log-management/
+* Gerenciar logs https://github.com/AddressForAll/suporte/blob/master/docs/pt/pm2-log.md
  
 # Procedimento de instalação do nodejs e serviços
 
