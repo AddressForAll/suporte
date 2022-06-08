@@ -5,14 +5,14 @@
 # Procedimento de instalação do nodejs e serviços
 
 * nodejs
-Referencia: https://nodejs.org/en/download/package-manager/#snap, https://github.com/nodejs/snap 
+Fazer Download do arquivo node-v16.14.2-linux-x64.tar.xz ou uma versão mais nova. Adaptar os caminhos se usar outra versão.
+https://nodejs.org/en/download/
 
-Instalação do Node.js 14 LTS
+Instalação do Node.js 16 LTS seria extrair na pasta /usr/local/node-v16.14.2-linux-x64 e colocar no final do arquivo /home/pm2/.bashrc
 
 ```
-sudo snap install node --classic --channel=14
+export PATH=/usr/local/node-v16.14.2-linux-x64/bin/:$PATH
 ```
-
 
 * PM2
 Referencia: https://github.com/Unitech/pm2
@@ -24,7 +24,6 @@ sudo npm install pm2 -g
 ```
 
 ```
-sudo su - 
 su - pm2
 pm2 startup
 #copiar a linha gerada para /etc/rc.local 
