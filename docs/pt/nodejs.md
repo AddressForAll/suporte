@@ -1,11 +1,15 @@
 
-Instalação de verão razoável, PERIGO NAO USAR `apt` direto! usar PPA!
+Instalação de verão razoável, 
 
-1. Se por acaso já instalou algo com apt, desinstalar! `apt` instala versão muito muito velha.
+1. Se por acaso já instalou algo com `apt` direto, desinstalar! `apt install nodejs` instala versão muito muito velha. Se foi instalado com PPA mas `node -v` mostra versão velha, também desinstalar. 
 
-    1.1. `sudo apt purge nodejs`
-    1.2. Residual PPA?  confira com `grep node /etc/apt/sources.list.d/*`
-    1.3. Remova o PPA antigo com `sudo add-apt-repository --remove ppa:chris-lea/node.js`
+     1.1. `sudo apt purge nodejs`
+
+
+     1.2. Residual PPA?  confira com `grep node /etc/apt/sources.list.d/*`
+
+
+     1.3. Remova o PPA antigo com `sudo add-apt-repository --remove ppa:chris-lea/node.js`
 
 2.  Seguir o Guia, [digitalocean.com/tutorials/how to install NodeJs on Ubuntu 20, Part 2](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04#option-2-installing-node-js-with-apt-using-a-nodesource-ppa).
 
