@@ -8,10 +8,6 @@ Instalação de verão AddressForAll-compatível do compilador *server-side* da 
   
 2. Conferir também se não existe algum **PPA residual**: o comando `grep node /etc/apt/sources.list.d/*` deve retornar vazio se "ok", ou linhas onde os indícios de versão incompatível podem ser averiguados. <br/>Se não estiver "ok" remover conforme seção "Desinstalando versões incompatíveis" abaixo.
 
-~~
-3.  Seguir o Guia, [digitalocean.com/tutorials/how to install NodeJs on Ubuntu 20, Part 2](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04#option-2-installing-node-js-with-apt-using-a-nodesource-ppa).<br/> Resumo: o guia indica como realizar comandos `curl`, `bash /tmp/nodesource_setup.sh` e `apt install nodejs`. Atentar para a escolha da versão, precisa ser aquela indicada pelas [diretivas da infraestrutura](https://github.com/AddressForAll/suporte/blob/master/docs/pt/infra.md#ambientes-e-ferramentas-de-uso-geral).
-~~
-
 3. Seguir o Guia, [nodesource](https://github.com/nodesource/distributions) da versão LTS. Atual a 18
 
 ## Desinstalando versões incompatíveis
