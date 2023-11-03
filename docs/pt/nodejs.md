@@ -1,4 +1,6 @@
+`sudo snap install node --classic --channel=18`
 
+-----
 Instalação de verão AddressForAll-compatível do compilador *server-side* da [linguagem Node.js](https://en.wikipedia.org/wiki/Node.js).  
 
 ## Procedimento de instalação do NodeJS LTS
