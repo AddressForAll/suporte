@@ -1,4 +1,5 @@
 `sudo snap install node --classic --channel=18`
+Ver nossa https://wiki.addressforall.org/doc/Documenta%C3%A7%C3%A3o_da_infraestrutura
 
 -----
 Instalação de verão AddressForAll-compatível do compilador *server-side* da [linguagem Node.js](https://en.wikipedia.org/wiki/Node.js).  
